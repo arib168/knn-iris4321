@@ -8,7 +8,7 @@ image = Image.open('Picture1.jpg')
 st.image(image, caption='TYPES OF IRIS FLOWERS')
 
 #Load the dataset 
-var = load_iris()
+var = load_iris() 
 
 # split the data into input and output 
 x = var.data    #input 
